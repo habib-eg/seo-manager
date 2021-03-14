@@ -1,0 +1,44 @@
+{
+    "name": "habib/seo-manager",
+    "description": "SEO Manager for Laravel Framework",
+    "keywords": ["laravel", "seo", "seo-manager", "lionix", "meta", "meta-data", "open-graph", "og-data"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lionix Team",
+            "email": "packages@lionix-team.com"
+        },
+        {
+            "name": "Sergey Karakhanyan",
+            "email": "karakhanyansa@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lionix\\SeoManager\\SeoManagerServiceProvider"
+            ],
+            "aliases": {
+                "SeoManager": "Lionix\\SeoManager\\Facades\\SeoManager"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Lionix\\SeoManager\\": "src"
+        },
+        "files":[
+            "src/helpers/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "^5 || ^6 || ^7 || ^8",
+        "spatie/laravel-sitemap": "^5",
+        "mohamedhabibwork/laravel-vue-i18n-generator": "^0",
+        "ext-json": "*",
+        "artesaos/seotools": "^0"
+    }
+}
