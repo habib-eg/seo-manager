@@ -1,5 +1,5 @@
 {
-    "name": "habib/seo-manager",
+    "name": "habib-eg/seo-manager",
     "description": "SEO Manager for Laravel Framework",
     "keywords": ["laravel", "seo", "seo-manager", "lionix", "meta", "meta-data", "open-graph", "og-data"],
     "type": "library",
